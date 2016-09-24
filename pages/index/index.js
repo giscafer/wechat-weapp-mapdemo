@@ -6,7 +6,7 @@ Page({
     motto: '微信小程序尝鲜，地图定位',
     userInfo: {},
     appInfo:{
-      logoUrl:'../../image/wechat.png',
+      logoUrl:'../../image/logo.png',
       title:'使用微信内置地图查看API定位'
     }
   },
