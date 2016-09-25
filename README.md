@@ -10,7 +10,7 @@
 
 ![](./image/screenshot2.png)
 
-![](./image/navigatitor.png)
+![](./image/navigator.png)
 
 
 
