@@ -19,7 +19,6 @@ Page({
   onLoad: function () {
     console.log('onLoad')
     var that = this
-    console.log(this.data)
     that.setData({
         appInfo:this.data.appInfo
     })

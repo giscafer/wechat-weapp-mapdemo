@@ -1,2 +1,8 @@
 <view class="container" id="map">
+ <navigator url="../index/index" hover-class="navigator-hover">
+    <button class="default">返回</button> 
+ </navigator>
+<view>
+    <text>地图详情里边返回会报【Page route】错误，是因为地图页面的返回非小程序里边的导航返回，找不到路由报错！官方demo也是如此</text>
+</view>
 </view>

@@ -1,6 +1,7 @@
-<!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for-items="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
+<!--project.wxml-->
+<view class="container project-list">
+  <block wx:for-items="{{projects}}" wx:for-item="project">
+    <text class="project-item">{{project.name}}</text>
+    <text class="project-git"  bindtap="clickName">{{project.git}}</text>
   </block>
 </view>
