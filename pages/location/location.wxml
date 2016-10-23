@@ -2,5 +2,5 @@
 <view>
     <text class="text">wx.getLocation接口，测试时获取的经纬度一直不变</text>
 </view>
-   <map longitude="{{point.longitude}}" latitude="{{point.latitude}}" markers="{{markers}}" covers="{{covers}}" style="width: 320px; height:420px;"></map>
+   <map longitude="{{point.longitude}}" latitude="{{point.latitude}}" markers="{{markers}}" covers="{{covers}}"  scale="16" style="width: 320px; height:420px;"></map>
 </scroll-view>
