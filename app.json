@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/map/map",
     "pages/location/location",
     "pages/logs/logs"
   ],
@@ -14,11 +15,16 @@
       "iconPath": "image/wechat.png",
       "selectedIconPath": "image/wechatHL.png",
       "text": "首页"
-    }, {
+    },{
+      "pagePath": "pages/map/map",
+      "iconPath": "image/map.png",
+      "selectedIconPath": "image/map_active.png",
+      "text": "地图"
+    },{
       "pagePath": "pages/location/location",
-       "iconPath": "image/locate.png",
+      "iconPath": "image/locate.png",
       "selectedIconPath": "image/locateHL.png",
-      "text": "定位"
+      "text": "导航"
     },{
       "pagePath": "pages/logs/logs",
       "iconPath": "image/wechat.png",
