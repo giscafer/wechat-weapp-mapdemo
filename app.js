@@ -24,7 +24,5 @@ App({
       });
     }
   },
-  globalData:{
-    userInfo:null
   }
 })
